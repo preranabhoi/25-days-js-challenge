@@ -31,3 +31,26 @@ let myObj={name:"prerana",
 
 
     console.log(typeof outsideTemp)
+
+
+
+//Stack(primitive),Heap(Non-primitive)
+
+
+let myName="prerana"
+let anotherName=myName
+anotherName="mayuri"
+console.log(myName);
+console.log(anotherName);
+
+let userOne={
+    email:"one@gmail.com",
+    upi:"one@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="two@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
